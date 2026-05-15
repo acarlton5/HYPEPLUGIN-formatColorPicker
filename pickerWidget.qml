@@ -46,7 +46,7 @@ PluginComponent {
       }
 
       let flag = (root.mode || "HEX").toLowerCase()
-      let cmd = `sleep 0.3; dms color pick --${flag} -a`
+      let cmd = `sleep 0.3; hype color pick --${flag} -a`
 
       Quickshell.execDetached(["sh", "-c", cmd])
     }

@@ -23,7 +23,7 @@ ln -s /path/to/dms-format-color-picker ~/.config/DankMaterialShell/plugins/dms-f
 Then reload DMS:
 
 ```bash
-dms restart
+hype restart
 ```
 
 ## Requirements
